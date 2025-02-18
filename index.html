@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SETCON SECURITY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Styles -->
+    <style>
+      /* Global Styles */
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(252, 249, 249));
+        color: #333;
+      }
+      /* Header Styles */
+      header {
+        background-image: url(House.jpg); /* Replace with your header image */
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        position: relative;
+        color: white;
+        text-align: center;
+      }
+      header::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+      }
+      header h1 {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 4em;
+        text-shadow: 2px 2px 5px rgba(20, 16, 16, 0.7);
+      }
+      /* Navigation Styles */
+      nav {
+        position: sticky;
+        top: 0;
+        background-color: #030803;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        z-index: 1000;
+      }
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 1.2em;
+        transition: color 0.3s;
+      }
+      nav a:hover {
+        color: #ffeb3b;
+      }
+      /* Section Styles */
+      section {
+        padding: 60px 20px;
+        text-align: center;
+      }
+      section:nth-child(even) {
+        background-color: #131212;
+      }
+      section h2 {
+        font-size: 2.5em;
+        margin-bottom: 30px;
+        color: #f2faf2eb;
+      }
+      .content {
+        max-width: 1200px;
+        margin: auto;
+      }
+      /* Columns Styles */
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+        justify-content: center;
+      }
+      .column {
+        flex: 1 1 300px;
+        max-width: 30%;
+        margin: 15px;
+        box-sizing: border-box;
+      }
+      .card {
+        background-color: rgba(247, 243, 243, 0.975);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(250, 4, 4, 0.872);
+        transition: transform 0.3s;
+      }
+      .card:hover {
+        transform: translateY(-10px);
+      }
+      .card img,
+      .card video {
+        width: 100%;
+        height: auto;
+      }
+      .card-content {
+        padding: 20px;
+      }
+      .card-content h3 {
+        margin-top: 0;
+        color: #fcf7f7f3;
+      }
+      .card-content p {
+        text-align: left;
+        line-height: 1.6;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        border: 2px solid #ccc;
+      }
+
+      /* Footer Styles */
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+      }
+      footer p {
+        margin: 0;
+      }
+      /* Animation Styles */
+      .fade-in {
+        opacity: 0;
+        animation: fadeIn 2s forwards;
+      }
+      .slide-up {
+        transform: translateY(50px);
+        opacity: 0;
+        animation: slideUp 1s forwards;
+      }
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes slideUp {
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        nav a {
+          margin: 0 10px;
+          font-size: 1em;
+        }
+        header h1 {
+          font-size: 2.5em;
+        }
+        .column {
+          max-width: 80%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1 class="fade-in" style="color: #f20909">SETCON SECURITY</h1>
+      <img src="" alt="" />
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Us Section -->
+    <section id="about">
+      <div class="content">
+        <h2 class="slide-up" style="color: #131212">SETCON SECURITY</h2>
+        <p class="slide-up">
+          We are experts in designing, installing and maintaining sophisticated
+          electronic security solutions for commercial and residential
+          properties. <br />We work with the best manufacturers in the industry
+          and we will provide you with the highest level of security
+          available.<br />“Experience, planning, and expertise… world-class
+          security, with a personal touch.”™<br />
+          Additionally,our products are relatively easy to install and maintain,
+          offering a cost-effective solution compared to traditional barriers or
+          surveillance systems. <br />Beyond security, they act as effective
+          containment for pets or livestock, ensuring their safety within the
+          property boundaries. Overall, electric fences provide a multi-layered
+          security approach, combining deterrence, alert systems, and
+          containment, making them advantageous for safeguarding families and
+          properties.<br />With so many security concerns among home owners and
+          businesses, it is essential to prepare for and adequately handle the
+          security requirements of businesses both large and small. At Setcon,
+          we have what it takes to competently safeguard your assets in any
+          eventuality. <br />We can help your home and organization to construct
+          a unified, standardized security platform that brings your company
+          together on one level. This ensures adequate unification in all
+          security protocols especially for enterprises with locations spread
+          out across different cities, regions, and countries.
+        </p>
+      </div>
+    </section>
+
+    <!-- Our site Section -->
+    <section id="our-security">
+      <div class="content">
+        <h2 class="slide-up" style="color: #f8f4f4eb">Explore Our Services</h2>
+        <div class="row">
+          <!--  Card -->
+          <div class="column">
+            <div class="card slide-up">
+              <img src="hikbanner.JPG" alt="security" />
+              <div class="card-content">
+                <h3 class="slide-up" style="color: #131212">CCTV</h3>
+                <p>
+                  Setcon provides turn-key high definition IP video solutions
+                  for both small and large residences. We work closely with each
+                  client covering the aesthetic and functionality
+                  considerations. Many of our latest installations include video
+                  analytics; we can accurately provide an active surveillance
+                  system without false alarms and even provide remote video
+                  monitoring through our monitoring center.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--  Card -->
+          <div class="column">
+            <div class="card slide-up">
+              <img src="se.jpg" alt="fence" />
+              <div class="card-content">
+                <h3 class="slide-up" style="color: #131212">
+                  SOLAR ELECTRIC FENCE
+                </h3>
+                <p>
+                  Solar electric fence serves as a robust security measure for
+                  families and properties by creating a barrier that deters
+                  potential intruders or animals. They provide a proactive
+                  approach to safety, triggering an alarm when breached, thus
+                  alerting homeowners or security personnel promptly. These
+                  fences are highly customizable, allowing users to adjust the
+                  voltage levels according to their security needs while
+                  offering various designs that blend with different landscapes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--  Video Card -->
+          <div class="column">
+            <div class="card slide-up">
+              <video controls>
+                <source src="." type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div class="card-content">
+                <h3 class="slide-up" style="color: #131212">security</h3>
+                <p>
+                  Our installation department has decades of experience from top
+                  to bottom. We know what it takes to get the job done the right
+                  way, the first time. Strong communication with our customers
+                  and quality installations. Services we offer: CCTV, Security
+                  Alarm Systems, Gate Automation, Video Intercom Systems,Solar
+                  electric fence, Fire alarm Systems & Integrated Systems, IP
+                  Camera Systems, Telephone & Intercom Systems, Access & Control
+                  Systems, Solar Power generation and General electrical
+                  installations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+      <div class="content">
+        <h2 class="slide-up" style="color: #131212">
+          NETWORKING AND REMOTE CONFIGURATION
+        </h2>
+        <div class="row">
+          <!-- Beef Products Card -->
+          <div class="column">
+            <div class="card slide-up">
+              <img src="gate.jpg" alt="Beef Products" />
+              <div class="card-content">
+                <h3 class="slide-up" style="color: #131212">GATE AUTOMATION</h3>
+                <p>
+                  We customize automating your gate to your preference. Our gate
+                  automation system is designed to provide a smooth and secure
+                  experience for you. We install Slide gate,swing gate, garage
+                  door etc. Home security system gate automation uses technology
+                  to open and close gates, and to control access to a
+                  property.This allow homeowners to program, monitor and control
+                  their home's security setup remotely or via an in-home
+                  dashboard, providing both safety and security for the home and
+                  a potential deterrent for criminals.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Daily Products Card -->
+          <div class="column">
+            <div class="card slide-up">
+              <img src="poe.JPG" alt="Dairy Products" />
+              <div class="card-content">
+                <h3 class="slide-up" style="color: #131212">
+                  KEEPING YOU CONNECTED
+                </h3>
+                <p>
+                  All of our video solutions provide no-cost remote access to
+                  the system from smart devices, setup, training, software setup
+                  and ongoing support from our own inside technical staff. We
+                  connect CCTV cameras,GSM alarms, access control,Video
+                  intercoms, and electric fencing and more on remote access.
+                  <br />A professional home security system can mean one of two
+                  things. One, it can mean professional installation, meaning
+                  that a technician installs the equipment. Or two, it can mean
+                  a system with professional monitoring, meaning that a client
+                  responds to alerts from remote connectivity.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--  Consultancy Card -->
+          <div class="column">
+            <div class="card slide-up">
+              <img src="round ban.jpg " alt="Consultancy Services" />
+              <div class="card-content">
+                <h3 class="slide-up" style="color: #131212">
+                  CONSULTANCY SERVICES
+                </h3>
+                <p>
+                  Our experts provide consultancy services to help clients adopt
+                  sustainable practices and improve their yield. Our commitment
+                  to excellence ensures unmatched expertise and a client-first
+                  approach you can always rely on. From advanced surveillance
+                  systems to cutting-edge access control solutions, Setcon
+                  Security serves residential and commercial clients throughout
+                  the country and provides select services to nationwide
+                  clients.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="content">
+        <h2 class="slide-up">GET IN TOUCH</h2>
+        <p class="slide-up" style="color: aliceblue">
+          You can count on us to provide for all of your integrated security
+          system needs. Contact us for more information about our services
+          today. Contact us today for a custom quote To learn more about our
+          services call +233(0) 241 963 600. Email: setconghana@gmail.com
+        </p>
+        <form class="slide-up">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+            style="padding: 10px; margin: 10px; width: 80%; max-width: 400px"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+            style="padding: 10px; margin: 10px; width: 80%; max-width: 400px"
+          />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+            style="padding: 10px; margin: 10px; width: 80%; max-width: 400px"
+          ></textarea>
+          <br />
+          <button
+            type="submit"
+            style="
+              padding: 15px 30px;
+              background-color: #f90808;
+              color: white;
+              border: none;
+              font-size: 1em;
+              cursor: pointer;
+              border-radius: 5px;
+            "
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Email: setconghana@gmail.com</p>
+      <p>Phone: +233 24 123 4567</p>
+      <p>&copy; 2025 SETCON SECURITY. All Rights Reserved.</p>
+      <p>Follow us on:</p>
+      <!-- Social Media Links (replace # with actual links) -->
+      <a
+        href="https://www.facebook.com/people/Setcon-Security/100063506200748/?mibextid=LQQJ4d"
+        style="color: white; margin: 0 10px"
+        >Facebook</a
+      >
+      |
+      <a
+        href="https://www.tiktok.com/@setconsecurity?_t=ZM-8u0KQZRX15r&_r=1"
+        style="color: white; margin: 0 10px"
+        >Tiktok</a
+      >
+      |
+      <a
+        href="https://www.instagram.com/setconsecurity/profilecard/?igsh=eXFxcHhja2E1bGc5"
+        style="color: white; margin: 0 10px"
+        >Instagram</a
+      >
+    </footer>
+
+    <!-- JavaScript for Animations -->
+    <script>
+      // Function to add 'slide-up' class to elements when they enter the viewport
+      const slideUpElements = document.querySelectorAll(".slide-up");
+      const observerOptions = {
+        threshold: 0.1,
+      };
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("in-view");
+          }
+        });
+      }, observerOptions);
+      slideUpElements.forEach((el) => {
+        observer.observe(el);
+      });
+    </script>
+  </body>
+</html>
